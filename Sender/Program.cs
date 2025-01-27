@@ -1,13 +1,28 @@
-﻿using Sender.Command;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using RabbitMQ.EventBus.Configuration;
+using RabbitMQ.EventBus.Options;
 
-var endpoint= Endpoint.Create("sender");
+public class Program
+{
+    public static async void Main(string[] args)
+    {
+        var host = CreateHostBuilder(args).Build();
+        await host.RunAsync();
+    }
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureServices((hostContext, services) =>
+            {
+                IConfiguration Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
+                                                                     .AddEnvironmentVariables()
+                                                                     .AddJsonFile("appsettings.json")
+                                                                     .Build();
 
-endpoint.Start();
 
-var command = new CreateOrderCommand(1,"Huh huh Cat");
+                var options = Configuration.GetSection("RabbitMqConnection") as IRabbitMqConnection;
+                services.AddRabbitMqEventBus(options);
+                services.AddRabbitMqRegistration(options);
+            });
 
-endpoint.Send(command,"ordering");
-
-var @event = new CustomerEmailChanged(1,"HuhCat@gmail.com");
-
-endpoint.Publish(@event);
+}

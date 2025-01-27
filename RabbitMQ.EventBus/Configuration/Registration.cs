@@ -9,7 +9,7 @@ namespace RabbitMQ.EventBus.Configuration
     public static class Registration
     {
         /// <summary>
-        /// 
+        /// adds configure RabbitMQ Event Bus  services  to the service collection
         /// </summary>
         /// <param name="services"></param>
         /// <param name="options"></param>

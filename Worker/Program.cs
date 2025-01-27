@@ -1,9 +1,30 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Event;
-using Worker.Event;
-using Worker.EventHandler;
+﻿
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using RabbitMQ.EventBus.Configuration;
+using RabbitMQ.EventBus.Options;
 
-Console.WriteLine("Hello, World!");
+public class Program
+{
+    public static async void Main(string[] args)
+    {
+        var host= CreateHostBuilder(args).Build();
+        await host.RunAsync();
+    }
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureServices((hostContext, services) =>
+            {
+                    IConfiguration Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
+                                                                         .AddEnvironmentVariables()
+                                                                         .AddJsonFile("appsettings.json")
+                                                                         .Build();
+                    
+                    
+                    var options = Configuration.GetSection("RabbitMqConnection") as IRabbitMqConnection;
+                    services.AddRabbitMqEventBus(options);
+                    services.AddRabbitMqRegistration(options);  
+            });
 
-
-Console.ReadLine();
+}
