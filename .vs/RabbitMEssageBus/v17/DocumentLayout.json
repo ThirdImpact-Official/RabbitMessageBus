@@ -1,0 +1,335 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\quentin\\RabbitMessageBus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\rabbit\\defaultrabbitmqpersistentconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\rabbit\\defaultrabbitmqpersistentconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\interface\\irabbitmqpersistenceconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\interface\\irabbitmqpersistenceconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\configuration\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\configuration\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\configuration\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\configuration\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\rabbit\\eventbusrabbitmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\rabbit\\eventbusrabbitmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\options\\irabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\options\\irabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|c:\\users\\quentin\\rabbitmessagebus\\worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|solutionrelative:worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|c:\\users\\quentin\\rabbitmessagebus\\sender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|solutionrelative:sender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\rabbitmq.eventbus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\rabbitmq.eventbus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|c:\\users\\quentin\\rabbitmessagebus\\rabbitmq.eventbus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8E8675-4E82-4F30-9FCF-701A348DE69D}|RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj|solutionrelative:rabbitmq.eventbus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|c:\\users\\quentin\\rabbitmessagebus\\worker\\worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|solutionrelative:worker\\worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|c:\\users\\quentin\\rabbitmessagebus\\worker\\eventhandler\\emailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|solutionrelative:worker\\eventhandler\\emailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|c:\\users\\quentin\\rabbitmessagebus\\worker\\event\\customeremailchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC08E14-040B-4E49-BE53-8D86607DC5A4}|Worker\\Worker.csproj|solutionrelative:worker\\event\\customeremailchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|c:\\users\\quentin\\rabbitmessagebus\\sender\\command\\customeremailchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|solutionrelative:sender\\command\\customeremailchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CF84EA-0C09-4836-9823-037AC4ECFB74}|\u00C9l\u00E9ments de solution{21CF84EA-0C09-4836-9823-037AC4ECFB74}|C:\\Users\\quentin\\RabbitMessageBus\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{21CF84EA-0C09-4836-9823-037AC4ECFB74}|\u00C9l\u00E9ments de solution{21CF84EA-0C09-4836-9823-037AC4ECFB74}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|c:\\users\\quentin\\rabbitmessagebus\\sender\\command\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|solutionrelative:sender\\command\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|c:\\users\\quentin\\rabbitmessagebus\\sender\\sender.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56360FFB-238F-484F-82E6-0E27AB766DD5}|Sender\\Sender.csproj|solutionrelative:sender\\sender.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventBusrabbitMq.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Rabbit\\EventBusrabbitMq.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\Rabbit\\EventBusrabbitMq.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Rabbit\\EventBusrabbitMq.cs",
+              "RelativeToolTip": "RabbitMQ.EventBus\\Rabbit\\EventBusrabbitMq.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:28:52.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRabbitMqPersistenceConnection.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Interface\\IRabbitMqPersistenceConnection.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\Interface\\IRabbitMqPersistenceConnection.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Interface\\IRabbitMqPersistenceConnection.cs",
+              "RelativeToolTip": "RabbitMQ.EventBus\\Interface\\IRabbitMqPersistenceConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:27:14.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefaultRabbitMqPersistentConnection.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Rabbit\\DefaultRabbitMqPersistentConnection.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\Rabbit\\DefaultRabbitMqPersistentConnection.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Rabbit\\DefaultRabbitMqPersistentConnection.cs",
+              "RelativeToolTip": "RabbitMQ.EventBus\\Rabbit\\DefaultRabbitMqPersistentConnection.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:22:14.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Configuration\\Registration.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\Configuration\\Registration.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Configuration\\Registration.cs",
+              "RelativeToolTip": "RabbitMQ.EventBus\\Configuration\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:00:42.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRabbitMqConnection.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Options\\IRabbitMqConnection.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\Options\\IRabbitMqConnection.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Options\\IRabbitMqConnection.cs",
+              "RelativeToolTip": "RabbitMQ.EventBus\\Options\\IRabbitMqConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:54:09.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Configuration\\Connection.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\Configuration\\Connection.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Configuration\\Connection.cs",
+              "RelativeToolTip": "RabbitMQ.EventBus\\Configuration\\Connection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:49:14.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RabbitMQ.EventBus",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj",
+              "RelativeToolTip": "RabbitMQ.EventBus\\RabbitMQ.EventBus.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-27T10:47:45.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.EventBus\\Program.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\RabbitMQ.EventBus\\Program.cs",
+              "RelativeToolTip": "RabbitMQ.EventBus\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:02:39.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerEmailChanged.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\Event\\CustomerEmailChanged.cs",
+              "RelativeDocumentMoniker": "Worker\\Event\\CustomerEmailChanged.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\Event\\CustomerEmailChanged.cs",
+              "RelativeToolTip": "Worker\\Event\\CustomerEmailChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T18:02:56.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmailHandler.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\EventHandler\\EmailHandler.cs",
+              "RelativeDocumentMoniker": "Worker\\EventHandler\\EmailHandler.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\EventHandler\\EmailHandler.cs",
+              "RelativeToolTip": "Worker\\EventHandler\\EmailHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T18:01:12.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Worker.csproj",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\Worker.csproj",
+              "RelativeDocumentMoniker": "Worker\\Worker.csproj",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\Worker.csproj",
+              "RelativeToolTip": "Worker\\Worker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T17:54:34.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-24T17:58:04.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerEmailChanged.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Command\\CustomerEmailChanged.cs",
+              "RelativeDocumentMoniker": "Sender\\Command\\CustomerEmailChanged.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Command\\CustomerEmailChanged.cs",
+              "RelativeToolTip": "Sender\\Command\\CustomerEmailChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:52:42.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Command\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "Sender\\Command\\CreateOrderCommand.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Command\\CreateOrderCommand.cs",
+              "RelativeToolTip": "Sender\\Command\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:46:45.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Sender.csproj",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Sender.csproj",
+              "RelativeDocumentMoniker": "Sender\\Sender.csproj",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Sender.csproj",
+              "RelativeToolTip": "Sender\\Sender.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T17:28:10.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\Program.cs",
+              "RelativeDocumentMoniker": "Worker\\Program.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Worker\\Program.cs",
+              "RelativeToolTip": "Worker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:27:52.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Program.cs",
+              "RelativeDocumentMoniker": "Sender\\Program.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Sender\\Program.cs",
+              "RelativeToolTip": "Sender\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:27:27.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 407,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

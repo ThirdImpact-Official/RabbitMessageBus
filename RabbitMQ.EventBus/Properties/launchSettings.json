@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RabbitMQ.EventBus": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
