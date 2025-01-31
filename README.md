@@ -22,7 +22,9 @@ RabbitMessageBus est une implémentation d'un bus de messages basé sur **Rabbit
 
 ## 🚀 Explication
 
+- BuildingBloks.Event s'occupe de la définition des interface IIntegrationEvent,IEventHandler 
 
+- BuildongBlocks.RabbitMQ de l'implementation du bus d'evenement avec rabbitMQ
 ---
 
 ## 📖 Tutoriel
