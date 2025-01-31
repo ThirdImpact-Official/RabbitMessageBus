@@ -117,3 +117,14 @@ builder.Services.AddScoped<IEventHandler<TestEvent>, TestEventHandler>();
 
 //......
 ```
+
+étape 4 
+subscribe the event  to the bus in the consummer service 
+```cs
+//-------var event bus -----------
+var eventBus = app.Services.GetRequiredService<IEventBus>(); //b
+await eventBus.StartAsync();
+
+await eventBus.SubscribeAsync<TestEvent, TestEventHandler>(async e => await new TestEventHandler(eventBus,app.Services.GetRequiredService<ILogger<TestEventHandler>>()).Handle(e));
+
+```
