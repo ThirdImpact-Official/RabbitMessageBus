@@ -97,7 +97,14 @@ builder.Services.AddBuildinBlocksRabbitMQ(configuration);
 // Register the event handler
 builder.Services.AddScoped<IEventHandler<TestEvent>, TestEventHandler>();
 ```
-
+in the appsetting.Json
+```json
+    "EventBus": {
+      "HostName": "localhost",
+      "UserNames": "guest",
+      "Password": "guest"
+    }
+```
 ---  
 
 ### 👀 Step 4: Subscribing to the Event in the Consumer Service  
