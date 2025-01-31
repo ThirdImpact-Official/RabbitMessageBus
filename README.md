@@ -15,8 +15,8 @@ This repository provides an efficient way to integrate RabbitMQ for inter-servic
 
 This repository offers documentation in both **English** and **French**.
 
-- 📜 **[[English Documentation](./README_EN.md](https://github.com/ThirdImpact-Official/RabbitMessageBus/blob/main/README_FR.md))** – A complete guide for setting up and using RabbitMessageBus in English.
-- 📜 **[[Documentation en Français](./README_FR.md](https://github.com/ThirdImpact-Official/RabbitMessageBus/blob/main/README_En.md))** – Un guide complet pour la configuration et l'utilisation de RabbitMessageBus en français.
+- 📜 **[English Documentation](https://github.com/ThirdImpact-Official/RabbitMessageBus/blob/main/README_FR.md))** – A complete guide for setting up and using RabbitMessageBus in English.
+- 📜 **[Documentation en Français](https://github.com/ThirdImpact-Official/RabbitMessageBus/blob/main/README_En.md))** – Un guide complet pour la configuration et l'utilisation de RabbitMessageBus en français.
 
 For more details, refer to the respective README files above. 🚀
 
