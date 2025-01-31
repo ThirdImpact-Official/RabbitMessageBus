@@ -1,130 +1,121 @@
-# RabbitMessageBus
+🐇 RabbitMessageBus
+RabbitMessageBus est une implémentation d'un bus de messages basé sur RabbitMQ, facilitant la communication asynchrone entre services.
 
-RabbitMessageBus est une implémentation d'un bus de messages utilisant RabbitMQ.
+📌 Caractéristiques
+✅ Utilisation de RabbitMQ : Transmission de messages entre services via RabbitMQ.
+✅ Gestion des événements : Prise en charge d'un modèle d'événements pour une architecture découplée.
+✅ Messages durables : Possibilité de configurer la persistance des messages.
+✅ Scalabilité : Adapté aux applications évolutives avec une montée en charge efficace.
+✅ Flexibilité : Paramétrage des files d'attente et des échanges pour s'adapter aux besoins.
 
-## Caractéristiques
+🛠️ Prérequis
+C# (.NET 6 ou supérieur)
+RabbitMQ 7.0.0
+Docker
+🚀 Installation
+1️⃣ Clonez le dépôt :
 
-- Implémentation d'un bus de messages RabbitMQ fonctionnel.
-- Exemples de code pour l'utilisation.
+bash
+Copier
+Modifier
+git clone https://github.com/ThirdImpact-Official/RabbitMessageBus.git
+2️⃣ Accédez au dossier du projet :
 
-## Prérequis
+bash
+Copier
+Modifier
+cd RabbitMessageBus
+3️⃣ Démarrez RabbitMQ via Docker :
 
-- **C#**
-- **Docker**
+bash
+Copier
+Modifier
+docker-compose up -d rabbitmq
+📖 Tutoriel
+🏗️ Étape 1 : Création d'un événement
+Dans votre service publisher et service consumer, créez un événement qui hérite de IntegrationEvent :
 
-## Installation
+csharp
+Copier
+Modifier
+public class TestEvent : IntegrationEvent
+{
+    public string Message { get; set; }
+    public int EventId { get; set; }
 
-1. Clonez le dépôt :
-
-   ```bash
-   git clone https://github.com/ThirdImpact-Official/RabbitMessageBus.git
-   ```
-
-2. Accédez au dossier du projet :
-
-   ```bash
-   cd RabbitMessageBus
-   ```
-
-3. Construisez l'image Docker de rabbit mq :
-
-   ```bash
-   docker-compose up rabbitmq .
-   ```
-## Principales Fonctionnalités
-Intégration avec RabbitMQ :
-
-Utilise RabbitMQ comme système de messagerie sous-jacent pour la transmission de messages.
-Envoi et Réception de Messages :
-
-Permet l'envoi et la réception de messages entre différents services.
-Gestion des Événements :
-
-Supporte la gestion des événements pour faciliter la communication asynchrone.
-Exemples de Code :
-
-Fournit des exemples pratiques pour aider les développeurs à intégrer et utiliser le bus de messages facilement.
-Support pour les Messages Durables :
-
-Permet de configurer des messages durables pour assurer la persistance des données.
-Scalabilité :
-
-Conçu pour être scalable, permettant de gérer une augmentation du volume de messages.
-Flexibilité :
-
-Offre une flexibilité dans la configuration des échanges et des files d'attente.
-## tutorrial 
-
-étapes 1 
-vous devez d'abords creer un event dans votre service Publisher et dans votre service consommateur
-celui-ci  doit impérativement hérité de Integration event 
-```cs
-    public class TestEvent :IntegrationEvent
+    public TestEvent(string message, int eventId)
     {
-        public string Message { get; set; }
-        public int EventId { get; set; }
-        public TestEvent(string message, int eventId)
-        {
-            Message = message;
-            EventId = eventId;
-        }
+        Message = message;
+        EventId = eventId;
+    }
+}
+🔄 Étape 2 : Création d'un handler pour l'événement
+Dans votre service consumer, ajoutez un gestionnaire d'événement qui implémente IEventHandler<T> :
+
+csharp
+Copier
+Modifier
+public class TestEventHandler : IEventHandler<TestEvent>
+{
+    private readonly IEventBus _eventBus;
+    private readonly ILogger<TestEventHandler> _logger;
+
+    public TestEventHandler(IEventBus eventBus, ILogger<TestEventHandler> logger)
+    {
+        _eventBus = eventBus;
+        _logger = logger;
     }
 
-```
+    public Task Handle(TestEvent @event)
+    {
+        try
+        {
+            _logger.LogInformation("Test event received:");
+            _logger.LogInformation($"Message: {@event.Message}");
+            _logger.LogInformation($"Event ID: {@event.EventId}");
 
-étapes 2 
+            return Task.CompletedTask;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError($"Error handling event: {ex.Message}");
+            throw;
+        }
+    }
+}
+⚙️ Étape 3 : Injection des dépendances dans Program.cs
+Dans votre service consumer, enregistrez le bus d'événements et le gestionnaire d'événements :
 
-vous devez creer un handler capable de gérer l'evennement  
-
-```cs
-  public class TestEventHandler : IEventHandler<TestEvent>
-  {
-      private readonly IEventBus _eventBus;
-      private readonly ILogger<TestEventHandler> _logger;
-      public TestEventHandler(IEventBus eventBus, ILogger<TestEventHandler> logger)
-      {
-          _eventBus = eventBus;
-          _logger = logger;
-      }
-
-      public Task Handle(TestEvent @event)
-      {
-          try
-          {
-              Console.WriteLine("Test event handled");
-              Console.WriteLine(@event.Message);
-              Console.WriteLine(@event.Id);
-              Console.WriteLine("j'ai réussi grosse pute");
-              return Task.CompletedTask;
-
-          }
-          catch (Exception)
-          {
-
-              throw;
-          }
-      }
-```
-
-étapes 3
-
-dans votre program.cs vous devez injecter le bus ainsi que handler
-```cs
-// previous contentn ......
- 
+csharp
+Copier
+Modifier
+// Ajout du bus de messages RabbitMQ
 builder.Services.AddBuildinBlocksRabbitMQ(configuration);
+
+// Enregistrement du handler de l'événement
 builder.Services.AddScoped<IEventHandler<TestEvent>, TestEventHandler>();
+📡 Étape 4 : Souscription à l'événement dans le service consumer
+Dans Program.cs, ajoutez l'abonnement à l'événement :
 
-//......
-```
+csharp
+Copier
+Modifier
+var eventBus = app.Services.GetRequiredService<IEventBus>();
 
-étape 4 
-subscribe the event  to the bus in the consummer service 
-```cs
-//-------var event bus -----------
-var eventBus = app.Services.GetRequiredService<IEventBus>(); //b
 await eventBus.StartAsync();
 
-await eventBus.SubscribeAsync<TestEvent, TestEventHandler>(async e => await new TestEventHandler(eventBus,app.Services.GetRequiredService<ILogger<TestEventHandler>>()).Handle(e));
+await eventBus.SubscribeAsync<TestEvent, TestEventHandler>(async e =>
+    await new TestEventHandler(
+        eventBus, 
+        app.Services.GetRequiredService<ILogger<TestEventHandler>>()
+    ).Handle(e)
+);
+🧪 Test
+Pour tester votre implémentation :
 
-```
+Démarrez RabbitMQ avec Docker.
+Lancez le service publisher et publiez un événement.
+Lancez le service consumer et vérifiez qu'il reçoit et traite l'événement.
+🎯 Conclusion
+Vous avez maintenant un bus de messages fonctionnel basé sur RabbitMQ en .NET ! 🎉
+Si vous avez des questions ou suggestions, n'hésitez pas à contribuer au projet. 🚀
