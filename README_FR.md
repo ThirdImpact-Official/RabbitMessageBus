@@ -95,7 +95,7 @@ Dans votre **service consumer**, enregistrez le bus d'événements et le gestion
 builder.Services.AddBuildinBlocksRabbitMQ(configuration);
 
 // Enregistrement du handler de l'événement
-builder.Services.AddScoped<IEventHandler<TestEvent>, TestEventHandler>();
+builder.Services.AddScoped<TestEventHandler>();
 ```
 dans l'appsetting.json
 ```json
@@ -116,12 +116,7 @@ var eventBus = app.Services.GetRequiredService<IEventBus>();
 
 await eventBus.StartAsync();
 
-await eventBus.SubscribeAsync<TestEvent, TestEventHandler>(async e =>
-    await new TestEventHandler(
-        eventBus,
-        app.Services.GetRequiredService<ILogger<TestEventHandler>>()
-    ).Handle(e)
-);
+await eventBus.SubscribeAsync<TestEvent, TestEventHandler>();
 ```
 
 ---
