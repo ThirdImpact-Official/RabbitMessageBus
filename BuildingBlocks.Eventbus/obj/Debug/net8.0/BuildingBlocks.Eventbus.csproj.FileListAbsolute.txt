@@ -1,0 +1,12 @@
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\bin\Debug\net8.0\BuildingBlocks.Eventbus.deps.json
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\bin\Debug\net8.0\BuildingBlocks.Eventbus.dll
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\bin\Debug\net8.0\BuildingBlocks.Eventbus.pdb
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\BuildingBlocks.Eventbus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\BuildingBlocks.Eventbus.AssemblyInfoInputs.cache
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\BuildingBlocks.Eventbus.AssemblyInfo.cs
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\BuildingBlocks.Eventbus.csproj.CoreCompileInputs.cache
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\BuildingBlocks.Eventbus.sourcelink.json
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\BuildingBlocks.Eventbus.dll
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\refint\BuildingBlocks.Eventbus.dll
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\BuildingBlocks.Eventbus.pdb
+C:\Users\quentin\RabbitMessageBus\BuildingBlocks.Eventbus\obj\Debug\net8.0\ref\BuildingBlocks.Eventbus.dll
