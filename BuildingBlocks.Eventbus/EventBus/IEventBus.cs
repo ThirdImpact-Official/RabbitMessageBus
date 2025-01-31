@@ -27,7 +27,7 @@ namespace BuildingBlocks.Eventbus.EventBus
         /// <param name="handler">The event handler delegate.</param>
         /// <param name="cancellationToken">A cancellation token.</param>
         /// <returns>A task representing the asynchronous operation.</returns>
-        Task SubscribeAsync<TEvent, THandler>(Func<TEvent, Task> handler, CancellationToken cancellationToken = default)
+        Task SubscribeAsync<TEvent, THandler>( CancellationToken cancellationToken = default)
             where TEvent : IntegrationEvent
             where THandler : IEventHandler<TEvent>;
 
@@ -39,7 +39,7 @@ namespace BuildingBlocks.Eventbus.EventBus
         /// <param name="handler">The event handler delegate to remove.</param>
         /// <param name="cancellationToken">A cancellation token.</param>
         /// <returns>A task representing the asynchronous operation.</returns>
-        Task UnsubscribeAsync<TEvent, THandler>(Func<TEvent, Task> handler, CancellationToken cancellationToken = default)
+        Task UnsubscribeAsync<TEvent, THandler>( CancellationToken cancellationToken = default)
             where TEvent : IntegrationEvent
             where THandler : IEventHandler<TEvent>;
 

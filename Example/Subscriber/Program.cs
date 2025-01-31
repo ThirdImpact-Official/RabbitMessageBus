@@ -2,6 +2,7 @@ using BuildingBlocks.Eventbus.Event;
 using BuildingBlocks.Eventbus.EventBus;
 using BuildingBlokcs.RabbitMQ.DependencyInjection;
 using Subscriber.Event.EventHandler;
+using Subscriber.ExtensionMethodes;
 using Subscriber.IntegrationEvents;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,7 @@ builder.Services.AddSwaggerGen();
 //Add the depedncy for the event bus 
 builder.Services.AddBuildingBlocksRabbitMQ(builder.Configuration);
 //add The Evfent handler as a service
-builder.Services.AddScoped<IEventHandler<TestEvent>,TestEventHandler>();
+builder.Services.AddScoped<TestEventHandler>();
 
 var app = builder.Build();
 
@@ -25,12 +26,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-//add the vent and the suvscription 
-var eventBus = app.Services.GetRequiredService<IEventBus>(); //b
-//start the connection to the bus 
-await eventBus.StartAsync();
-//subscription to the event bus
-await eventBus.SubscribeAsync<TestEvent, TestEventHandler>(async e => await new TestEventHandler(eventBus, app.Services.GetRequiredService<ILogger<TestEventHandler>>()).Handle(e));
+
+// méthodes for the bus to start
+app.StartBus().GetAwaiter().GetResult();
 
 app.UseHttpsRedirection();
 

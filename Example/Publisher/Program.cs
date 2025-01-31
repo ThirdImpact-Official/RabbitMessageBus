@@ -1,4 +1,5 @@
 using BuildingBlokcs.RabbitMQ.DependencyInjection;
+using Publisher.ExtensionMethods;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +22,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.StartBus().GetAwaiter().GetResult();
 app.MapControllers();
 
 app.Run();

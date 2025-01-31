@@ -1,30 +1,35 @@
-﻿
-
+﻿using BuildIngBlocks.Event.EventBus;
+using BuildingBlokcs.RabbitMQ.Options;
+using Microsoft.Extensions.DependencyInjection;
 using System.Text;
 
-namespace BuildingBlokcs.RabbitMQ
+namespace BuildingBlocks.RabbitMQ
 {
-    public class RabbitMQBus :IEventBus
+    public class RabbitMQBus : IEventBus
     {
         private readonly ILogger<RabbitMQBus> _logger;
+        private readonly IServiceProvider _serviceProvider;
         private readonly string _exchangeName;
         private readonly SemaphoreSlim _semaphore;
-        private readonly Dictionary<string, List<Delegate>> _handlers;
+        private readonly Dictionary<string, List<Type>> _handlers;
         private readonly IConnectionFactory _connectionFactory;
         private IConnection? _connection;
         private IChannel? _channel;
         private bool _disposed;
 
         public RabbitMQBus(string exchangeName,
+            IServiceProvider serviceProvider,
                            ILogger<RabbitMQBus> logger,
                            RabbitMqOption options)
         {
+            _serviceProvider = serviceProvider;
             _logger = logger;
             _exchangeName = exchangeName;
             _semaphore = new SemaphoreSlim(1, 1);
-            _handlers = new Dictionary<string, List<Delegate>>();
+            _handlers = new Dictionary<string, List<Type>>();
             _connectionFactory = new ConnectionFactory()
             {
+
                 HostName = options.HostName,
                 Password = options.Password,
                 UserName = options.UserName,
@@ -117,7 +122,7 @@ namespace BuildingBlokcs.RabbitMQ
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         /// <exception cref="ObjectDisposedException"></exception>
-        public async Task SubscribeAsync<TEvent, THandler>(Func<TEvent, Task> handler, CancellationToken cancellationToken = default)
+        public async Task SubscribeAsync<TEvent, THandler>(CancellationToken cancellationToken = default)
             where TEvent : IntegrationEvent
             where THandler : IEventHandler<TEvent>
         {
@@ -130,10 +135,10 @@ namespace BuildingBlokcs.RabbitMQ
 
                 if (!_handlers.ContainsKey(eventName))
                 {
-                    _handlers[eventName] = new List<Delegate>();
+                    _handlers[eventName] = new List<Type>();
                 }
 
-                _handlers[eventName].Add(handler);
+                _handlers[eventName].Add(typeof(THandler));
 
                 var queueName = $"{_exchangeName}.{eventName}";
                 _ = await _channel.QueueDeclareAsync(queueName,
@@ -154,11 +159,13 @@ namespace BuildingBlokcs.RabbitMQ
 
                         if (@event != null)
                         {
-                            foreach (var del in _handlers[eventName])
+                            using var scope = _serviceProvider.CreateScope();
+                            foreach (var handlerType in _handlers[eventName])
                             {
-                                if (del is Func<TEvent, Task> eventHandler)
+                                var handler = scope.ServiceProvider.GetRequiredService(handlerType) as IEventHandler<TEvent>;
+                                if (handler != null)
                                 {
-                                    await eventHandler(@event);
+                                    await handler.Handle(@event);
                                 }
                             }
                         }
@@ -194,7 +201,7 @@ namespace BuildingBlokcs.RabbitMQ
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         /// <exception cref="ObjectDisposedException"></exception>
-        public async Task UnsubscribeAsync<TEvent, THandler>(Func<TEvent, Task> handler, CancellationToken cancellationToken = default)
+        public async Task UnsubscribeAsync<TEvent, THandler>(CancellationToken cancellationToken = default)
             where TEvent : IntegrationEvent
             where THandler : IEventHandler<TEvent>
         {
@@ -207,7 +214,7 @@ namespace BuildingBlokcs.RabbitMQ
 
                 if (_handlers.ContainsKey(eventName))
                 {
-                    _handlers[eventName].Remove(handler);
+                    _handlers[eventName].Remove(typeof(THandler));
 
                     if (_handlers[eventName].Count == 0)
                     {
