@@ -110,6 +110,10 @@ vous devez creer un handler capable de gérer l'evennement
 
 dans votre program.cs vous devez injecter le bus ainsi que handler
 ```cs
+// previous contentn ......
+ 
+builder.Services.AddBuildinBlocksRabbitMQ(configuration);
+builder.Services.AddScoped<IEventHandler<TestEvent>, TestEventHandler>();
 
-
+//......
 ```
