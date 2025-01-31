@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\quentin\\RabbitMessageBus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|c:\\users\\quentin\\rabbitmessagebus\\example\\publisher\\integrationevent\\testevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|solutionrelative:example\\publisher\\integrationevent\\testevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|c:\\users\\quentin\\rabbitmessagebus\\example\\publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|solutionrelative:example\\publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1889BE93-867E-48A2-8FB9-94ECE82F6F7E}|Example\\Subscriber\\Subscriber.csproj|c:\\users\\quentin\\rabbitmessagebus\\example\\subscriber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1889BE93-867E-48A2-8FB9-94ECE82F6F7E}|Example\\Subscriber\\Subscriber.csproj|solutionrelative:example\\subscriber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|c:\\users\\quentin\\rabbitmessagebus\\example\\publisher\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|solutionrelative:example\\publisher\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1889BE93-867E-48A2-8FB9-94ECE82F6F7E}|Example\\Subscriber\\Subscriber.csproj|c:\\users\\quentin\\rabbitmessagebus\\example\\subscriber\\integrationevent\\event\\testevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1889BE93-867E-48A2-8FB9-94ECE82F6F7E}|Example\\Subscriber\\Subscriber.csproj|solutionrelative:example\\subscriber\\integrationevent\\event\\testevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1889BE93-867E-48A2-8FB9-94ECE82F6F7E}|Example\\Subscriber\\Subscriber.csproj|c:\\users\\quentin\\rabbitmessagebus\\example\\subscriber\\integrationevent\\handler\\testeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1889BE93-867E-48A2-8FB9-94ECE82F6F7E}|Example\\Subscriber\\Subscriber.csproj|solutionrelative:example\\subscriber\\integrationevent\\handler\\testeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|c:\\users\\quentin\\rabbitmessagebus\\example\\publisher\\publisher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C21E88E3-C4D4-4E3D-885F-CF26E120956E}|Example\\Publisher\\Publisher.csproj|solutionrelative:example\\publisher\\publisher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -107,25 +131,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TestEvent.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\IntegrationEvent\\TestEvent.cs",
+              "RelativeDocumentMoniker": "Example\\Publisher\\IntegrationEvent\\TestEvent.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\IntegrationEvent\\TestEvent.cs",
+              "RelativeToolTip": "Example\\Publisher\\IntegrationEvent\\TestEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:34:46.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\Program.cs",
+              "RelativeDocumentMoniker": "Example\\Publisher\\Program.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\Program.cs",
+              "RelativeToolTip": "Example\\Publisher\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:34:45.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\Program.cs",
+              "RelativeDocumentMoniker": "Example\\Subscriber\\Program.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\Program.cs",
+              "RelativeToolTip": "Example\\Subscriber\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:34:44.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Example\\Publisher\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Example\\Publisher\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:34:42.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestEvent.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\IntegrationEvent\\Event\\TestEvent.cs",
+              "RelativeDocumentMoniker": "Example\\Subscriber\\IntegrationEvent\\Event\\TestEvent.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\IntegrationEvent\\Event\\TestEvent.cs",
+              "RelativeToolTip": "Example\\Subscriber\\IntegrationEvent\\Event\\TestEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:34:41.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\IntegrationEvent\\Handler\\TestEventHandler.cs",
+              "RelativeDocumentMoniker": "Example\\Subscriber\\IntegrationEvent\\Handler\\TestEventHandler.cs",
+              "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\IntegrationEvent\\Handler\\TestEventHandler.cs",
+              "RelativeToolTip": "Example\\Subscriber\\IntegrationEvent\\Handler\\TestEventHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:34:37.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Publisher",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\Publisher.csproj",
               "RelativeDocumentMoniker": "Example\\Publisher\\Publisher.csproj",
               "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Publisher\\Publisher.csproj",
               "RelativeToolTip": "Example\\Publisher\\Publisher.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-31T12:32:57.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Subscriber",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\Subscriber.csproj",
               "RelativeDocumentMoniker": "Example\\Subscriber\\Subscriber.csproj",
               "ToolTip": "C:\\Users\\quentin\\RabbitMessageBus\\Example\\Subscriber\\Subscriber.csproj",
               "RelativeToolTip": "Example\\Subscriber\\Subscriber.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-31T12:32:30.635Z",
               "EditorCaption": ""
@@ -136,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "TestEvent.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Publisher\\IntegrationEvent\\TestEvent.cs",
               "RelativeDocumentMoniker": "Publisher\\IntegrationEvent\\TestEvent.cs",
@@ -148,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "TestController.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Publisher\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "Publisher\\Controllers\\TestController.cs",
@@ -159,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "TestEvent.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Subscriber\\IntegrationEvent\\Event\\TestEvent.cs",
               "RelativeDocumentMoniker": "Subscriber\\IntegrationEvent\\Event\\TestEvent.cs",
@@ -171,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "TestEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Subscriber\\IntegrationEvent\\Handler\\TestEventHandler.cs",
               "RelativeDocumentMoniker": "Subscriber\\IntegrationEvent\\Handler\\TestEventHandler.cs",
@@ -183,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Subscriber\\Program.cs",
               "RelativeDocumentMoniker": "Subscriber\\Program.cs",
@@ -195,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Publisher\\Program.cs",
               "RelativeDocumentMoniker": "Publisher\\Program.cs",
@@ -207,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Publisher\\appsettings.json",
               "RelativeDocumentMoniker": "Publisher\\appsettings.json",
@@ -219,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Subscriber\\appsettings.json",
               "RelativeDocumentMoniker": "Subscriber\\appsettings.json",
@@ -231,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "Publisher.csproj",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\Publisher\\Publisher.csproj",
               "RelativeDocumentMoniker": "Publisher\\Publisher.csproj",
@@ -243,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "BuildingBlocks.Eventbus.csproj",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlocks.Eventbus\\BuildingBlocks.Eventbus.csproj",
               "RelativeDocumentMoniker": "BuildingBlocks.Eventbus\\BuildingBlocks.Eventbus.csproj",
@@ -256,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "RabbitMQBusEvent.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlokcs.RabbitMQ\\RabbitMQBusEvent.cs",
               "RelativeDocumentMoniker": "BuildingBlokcs.RabbitMQ\\RabbitMQBusEvent.cs",
@@ -268,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "DI.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlokcs.RabbitMQ\\DependencyInjection\\DI.cs",
               "RelativeDocumentMoniker": "BuildingBlokcs.RabbitMQ\\DependencyInjection\\DI.cs",
@@ -280,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "RabbitMqOption.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlokcs.RabbitMQ\\Options\\RabbitMqOption.cs",
               "RelativeDocumentMoniker": "BuildingBlokcs.RabbitMQ\\Options\\RabbitMqOption.cs",
@@ -292,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "BuildingBlokcs.RabbitMQ.csproj",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlokcs.RabbitMQ\\BuildingBlokcs.RabbitMQ.csproj",
               "RelativeDocumentMoniker": "BuildingBlokcs.RabbitMQ\\BuildingBlokcs.RabbitMQ.csproj",
@@ -305,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "IEventBus.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlocks.Eventbus\\EventBus\\IEventBus.cs",
               "RelativeDocumentMoniker": "BuildingBlocks.Eventbus\\EventBus\\IEventBus.cs",
@@ -317,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "IEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlocks.Eventbus\\Event\\IEventHandler.cs",
               "RelativeDocumentMoniker": "BuildingBlocks.Eventbus\\Event\\IEventHandler.cs",
@@ -329,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "IIntegrationEvent.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlocks.Eventbus\\Event\\IIntegrationEvent.cs",
               "RelativeDocumentMoniker": "BuildingBlocks.Eventbus\\Event\\IIntegrationEvent.cs",
@@ -341,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "IntegrationEvent.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlocks.Eventbus\\Event\\IntegrationEvent.cs",
               "RelativeDocumentMoniker": "BuildingBlocks.Eventbus\\Event\\IntegrationEvent.cs",
@@ -353,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlokcs.RabbitMQ\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "BuildingBlokcs.RabbitMQ\\GlobalUsing.cs",
@@ -365,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\BuildingBlocks.Eventbus\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "BuildingBlocks.Eventbus\\GlobalUsing.cs",
@@ -377,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\quentin\\RabbitMessageBus\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
