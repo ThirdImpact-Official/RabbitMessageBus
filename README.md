@@ -31,7 +31,7 @@ RabbitMessageBus est une implémentation d'un bus de messages utilisant RabbitMQ
    ```bash
    docker-compose up rabbitmq .
    ```
-Principales Fonctionnalités
+## Principales Fonctionnalités
 Intégration avec RabbitMQ :
 
 Utilise RabbitMQ comme système de messagerie sous-jacent pour la transmission de messages.
@@ -53,3 +53,5 @@ Conçu pour être scalable, permettant de gérer une augmentation du volume de m
 Flexibilité :
 
 Offre une flexibilité dans la configuration des échanges et des files d'attente.
+
+
