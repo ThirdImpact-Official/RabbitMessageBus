@@ -1,0 +1,8 @@
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.csproj.AssemblyReference.cache
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.AssemblyInfoInputs.cache
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.AssemblyInfo.cs
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\quentin\RabbitMessageBus\Example\Subscriber\obj\Debug\net8.0\Subscriber.sourcelink.json

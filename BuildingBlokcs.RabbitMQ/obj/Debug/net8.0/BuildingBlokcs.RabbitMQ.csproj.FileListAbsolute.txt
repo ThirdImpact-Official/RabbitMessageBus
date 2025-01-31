@@ -1,0 +1,16 @@
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\bin\Debug\net8.0\BuildingBlokcs.RabbitMQ.deps.json
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\bin\Debug\net8.0\BuildingBlokcs.RabbitMQ.dll
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\bin\Debug\net8.0\BuildingBlokcs.RabbitMQ.pdb
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\bin\Debug\net8.0\BuildingBlocks.Eventbus.dll
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\bin\Debug\net8.0\BuildingBlocks.Eventbus.pdb
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.csproj.AssemblyReference.cache
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.AssemblyInfo.cs
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.sourcelink.json
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\Building.5BE44B70.Up2Date
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.dll
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\refint\BuildingBlokcs.RabbitMQ.dll
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\BuildingBlokcs.RabbitMQ.pdb
+C:\Users\quentin\RabbitMessageBus\BuildingBlokcs.RabbitMQ\obj\Debug\net8.0\ref\BuildingBlokcs.RabbitMQ.dll
