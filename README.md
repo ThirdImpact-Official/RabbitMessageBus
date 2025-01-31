@@ -39,6 +39,7 @@ cd RabbitMessageBus
 ```bash
 docker-compose up -d rabbitmq
 ```
+4. **RécupererBuildingBlock**
 
 ---
 
