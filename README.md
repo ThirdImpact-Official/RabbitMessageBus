@@ -20,26 +20,8 @@ RabbitMessageBus est une implémentation d'un bus de messages basé sur **Rabbit
 
 ---
 
-## 🚀 Installation
+## 🚀 Explication
 
-1. **Clonez le dépôt :**  
-
-```bash
-git clone https://github.com/ThirdImpact-Official/RabbitMessageBus.git
-```
-
-2. **Accédez au dossier du projet :**  
-
-```bash
-cd RabbitMessageBus
-```
-
-3. **Démarrez RabbitMQ via Docker :**  
-
-```bash
-docker-compose up -d rabbitmq
-```
-4. **RécupererBuildingBlock**
 
 ---
 
