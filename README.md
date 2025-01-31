@@ -14,7 +14,7 @@ RabbitMessageBus est une implémentation d'un bus de messages basé sur **Rabbit
 
 ## 🛠️ Prérequis
 
-- **C# (.NET 6 ou supérieur)**
+- **C# (.NET 8 ou supérieur)**
 - **RabbitMQ 7.0.0**
 - **Docker**
 
